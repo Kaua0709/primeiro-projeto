@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, bisque, white);
+    padding: 30px;
+
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-shadow: 2px 5px 6px gray;
+}
+
+nav {
+    border: 2px solid;
+    /* espaço fora: margin    espaço dentro: padding */
+    margin-top: 30px;
+    }
+
+nav a{
+    /* adiciona uma cor */
+    color: chocolate;
+    /* adiciona uma sombra ao texto */
+    text-shadow: 2px 5px 6px burlywood ;                  
+    text-decoration: none;
+    padding: 30px;
+    /* tamanho da fonte */
+    font-size: 25px;
+    /* estilo da fonte */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+
+}
+
+/* quando passar o mouse */
+nav a:hover {
+color: yellow;
+/* deixa em negrito */
+font-weight: bold;
+}
+
+.section-image1{
+    width: 100%;  /* Largura da seção */
+    height: 500px; /* Altura da seção */
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 5px 6px burlywood;
+    color: chocolate;
+    border-radius: 20px;
+
+    background-image: url(./img/imagem1.jpg) ; /*usa a imagem como fundo do container */
+    background-position: center; /*Centraliza a imagem dentro do container */
+    background-size: cover; /*Define que a imagem vai ocupar todo o container */
+    background-repeat: no-repeat; /*Define que a imagem não vai se repetir*/
+    background-attachment: fixed; /*Fixa a imagem ao rolar a página */
+    }
+
+    .section-image1 h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+
+
+    }
+
+    section {
+    width: 100%;  /* Largura da seção */
+    height: 500px; /* Altura da seção */
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 5px 6px burlywood;
+    color: chocolate;
+    border-radius: 20px;
+    }
+
+    section h1 {
+        margin-bottom: 20px;
+        text-shadow: 2px 5px 6px burlywood;
+        font-size: 50px;
+    }
+
+    section p {
+        font-size: 35px;
+
+    }
+
+    .section-image2 {
+        background-image: url(./img/imagem2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .section-image3 {
+        background-image: url(./img/imagem3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .section-image4 {
+        background-image: url(./img/imagem4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    footer {
+        text-align: center;
+        background: linear-gradient(to bottom, white, bisque);
+        padding: 30px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        color: chocolate;
+        font-weight: bold;
+    }
